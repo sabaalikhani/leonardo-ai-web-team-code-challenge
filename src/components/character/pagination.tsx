@@ -20,7 +20,6 @@ export const Pagination = ({ currentPage, totalPages }: PaginationProps) => {
 			pageSize={1}
 			defaultPage={currentPage}
 			getHref={(page) => `/characters/${page}`}
-			placeSelf='end'
 			colorPalette='brand'
 			data-testid='character-pagination'
 		>

@@ -7,7 +7,7 @@ exports[`UserForm should render the component correctly 1`] = `
     data-testid="user-form"
   >
     <fieldset
-      class="fieldset__root css-11gbs6y"
+      class="fieldset__root css-1v0m2mv"
       data-part="root"
       data-scope="fieldset"
     >

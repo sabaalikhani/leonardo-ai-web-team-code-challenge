@@ -25,7 +25,7 @@ export const UserForm = ({
 
 	return (
 		<form action={formAction} data-testid={testId}>
-			<Fieldset.Root maxW='md' placeSelf='center'>
+			<Fieldset.Root maxW='md' margin='auto'>
 				<Fieldset.Legend>User details</Fieldset.Legend>
 				<Fieldset.Content>
 					<Field label='User name' required>
