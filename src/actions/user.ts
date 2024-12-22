@@ -26,6 +26,7 @@ export const submitUserData = async (state: UserData, data: FormData) => {
 		cookieStore.set('job_title', jobTitle as string);
 	} catch (error) {
 		// TODO: Throw error
+		console.error(error);
 	}
 	redirect('/');
 };

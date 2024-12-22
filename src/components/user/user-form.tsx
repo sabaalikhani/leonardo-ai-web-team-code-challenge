@@ -21,7 +21,7 @@ export const UserForm = ({
 	data = initialState,
 	testId = 'user-form',
 }: UserFormProps) => {
-	const [_, formAction, isPending] = useActionState(submitUserData, data);
+	const [_, formAction, isPending] = useActionState(submitUserData, data); // eslint-disable-line @typescript-eslint/no-unused-vars 
 
 	return (
 		<form action={formAction} data-testid={testId}>
