@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserForm should render the component correctly 1`] = `
+<div>
+  <form
+    action="javascript:throw new Error('A React form was unexpectedly submitted. If you called form.submit() manually, consider using form.requestSubmit() instead. If you\\'re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().')"
+    data-testid="user-form"
+  >
+    <fieldset
+      class="fieldset__root css-11gbs6y"
+      data-part="root"
+      data-scope="fieldset"
+    >
+      <legend
+        class="fieldset__legend css-1ivdo4g"
+        data-part="legend"
+        data-scope="fieldset"
+      >
+        User details
+      </legend>
+      <div
+        class="fieldset__content css-mpjbgj"
+      >
+        <div
+          class="chakra-field__root css-13f87cb"
+          data-part="root"
+          data-scope="field"
+          id="field:::r1:"
+          role="group"
+        >
+          <label
+            class="chakra-field__label css-65zcwe"
+            data-part="label"
+            data-scope="field"
+            for=":r1:"
+            id="field:::r1:::label"
+          >
+            User name
+            <span
+              aria-hidden="true"
+              class="chakra-field__requiredIndicator css-gp8wgo"
+            >
+              *
+            </span>
+          </label>
+          <input
+            class="chakra-input css-b3diqb"
+            data-part="input"
+            data-required=""
+            data-scope="field"
+            id=":r1:"
+            name="userName"
+            required=""
+            value=""
+          />
+        </div>
+        <div
+          class="chakra-field__root css-13f87cb"
+          data-part="root"
+          data-scope="field"
+          id="field:::r2:"
+          role="group"
+        >
+          <label
+            class="chakra-field__label css-65zcwe"
+            data-part="label"
+            data-scope="field"
+            for=":r2:"
+            id="field:::r2:::label"
+          >
+            Job title
+            <span
+              aria-hidden="true"
+              class="chakra-field__requiredIndicator css-gp8wgo"
+            >
+              *
+            </span>
+          </label>
+          <input
+            class="chakra-input css-b3diqb"
+            data-part="input"
+            data-required=""
+            data-scope="field"
+            id=":r2:"
+            name="jobTitle"
+            required=""
+            value=""
+          />
+        </div>
+      </div>
+      <button
+        class="chakra-button css-1hceb3j"
+        data-testid="user-form-submit"
+        type="submit"
+      >
+        Submit
+      </button>
+    </fieldset>
+  </form>
+</div>
+`;

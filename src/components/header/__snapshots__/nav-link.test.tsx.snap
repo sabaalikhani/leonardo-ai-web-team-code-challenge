@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLink should display the active styles if pathname matches href 1`] = `
+<div>
+  <a
+    class="chakra-link css-wqgvft"
+    data-testid="nav-link"
+    href="/"
+  >
+    Home
+  </a>
+</div>
+`;
+
+exports[`NavLink should render the component correctly 1`] = `
+<div>
+  <a
+    class="chakra-link css-45u27q"
+    data-testid="nav-link"
+    href="/"
+  >
+    Home
+  </a>
+</div>
+`;
