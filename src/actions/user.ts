@@ -10,6 +10,7 @@ export type UserData = {
 
 export const submitUserData = async (state: UserData, data: FormData) => {
 	try {
+		// NOTE: simulate a loading state by waiting 1 second
 		await new Promise((resolve) => setTimeout(resolve, 1000));
 
 		const userName = data.get('userName');
